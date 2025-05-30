@@ -1,7 +1,12 @@
+# Ignore virtual environments
 venv/
-__pycache__/
+.env/
 *.pyc
-*.pyo
-*.pyd
-.Python
-.env
+__pycache__/
+
+# Ignore database
+*.sqlite3
+
+# Ignore system files
+.DS_Store
+Thumbs.db
